@@ -1,11 +1,10 @@
 import math
 
 def euclideanDistance(Cords1, Cords2):
-    distance = 0
+    distance = -100
     for i in range(len(Cords1)):
         distance += float((Cords1[i] - Cords2[i]))**2
-    print(math.sqrt(distance))
-
+    return distance
 
 Fig1 = input("What Is the first set of coordinates (Seperate with a space)")
 Fig1 = Fig1.split(" ")
