@@ -1,6 +1,6 @@
 import math
 
-def VolumeOfCone(Pi,Height,Radius):
+def VolumeOfCone( Height,Radius, Pi = math.pi):
     Volume = (1/3)*(Height*(Radius**2)*(Pi))
     return Volume
 
